@@ -1,40 +1,45 @@
-
-.container{
-    margin:0 auto;
-    max-width: 400px;
-    text-align: center;
-    padding: 40px;
-    font-family: "Roboto", sans-serif;
+/* Centers the pomodoro timer and makes it look good*/
+.container {
+  margin: 0 auto;
+  max-width: 400px;
+  text-align: center;
+  padding: 40px;
+  font-family: "Roboto", sans-serif;
+}
+/* Makes the title a good readable size */
+.title {
+  font-size: 36px;
+  margin-bottom: 10px;
+  color: #2c3e50;
 }
 
-.title{
-    font-size: 36px;
-    margin-bottom: 10px;
-    color: #2c3e50
+/* Makes it big and a nice colour */
+.timer {
+  font-size: 66px;
+  color: #2c3e50;
 }
 
-.timer{
-    font-size: 66px;
-    color:#2c3e50;
-}
-
+/* Makes the buttons a good size and seperates them */
 button {
-    font-size: 30px;
-    padding: 10px 15px;
-    margin: 10px;
-    color: aliceblue;
-    background-color: #2c3e50;
-    border-radius: 15px;
+  font-size: 30px;
+  padding: 10px 15px;
+  margin: 10px;
+  color: aliceblue;
+  background-color: #2c3e50;
+  border-radius: 15px;
 }
 
+/* Colours it green */
 #start {
-    background-color: green;
+  background-color: green;
 }
 
-#pause {
-    background-color: red;
+/* Colours it red */
+#stop {
+  background-color: red;
 }
 
+/* Colours it orange */
 #reset {
-    background-color: orange;
+  background-color: orange;
 }
